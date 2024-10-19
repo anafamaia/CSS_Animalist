@@ -1,0 +1,90 @@
+/* comum a todas as páginas */
+body {
+  background-color: #f5f1fe;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+}
+
+header {
+  background-color: #5370f6;
+}
+
+#logo {
+  width: 35%;
+}
+
+.nav-item {
+  padding: 25px;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: white;
+}
+
+.link-footer {
+  color: white;
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  text-decoration: underline;
+}
+
+.list-footer {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+main {
+  margin: 50px 0;
+}
+
+footer {
+  background-color: #5370f6;
+  padding: 15px;
+}
+
+.coluna-footer {
+  padding: 30px;
+}
+
+.direitos {
+  color: #ffea2e;
+  margin: 0 auto;
+}
+
+/*página index*/
+.heading-principal {
+  padding: 20px;
+}
+
+.texto-principal {
+  padding: 20px;
+}
+
+.botao-principal {
+  margin-top: 10px;
+  padding: 20px 30px;
+  background-color: #ffea2e;
+  border-radius: 35px;
+  border: 1px solid #ffea2e;
+  font-size: 16px;
+  color: black;
+}
+
+.botao-principal:hover {
+  background-color: #5370f6;
+  border: 1px solid #5370f6;
+  transition: all ease 150ms;
+  cursor: pointer;
+  color: white;
+}
+
+.img-principal {
+  width: 400px;
+  border-radius: 35px;
+  display: block;
+  margin: 0 auto;
+}
