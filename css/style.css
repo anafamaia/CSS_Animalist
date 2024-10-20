@@ -89,4 +89,9 @@ footer {
   margin: 0 auto;
 }
 
-/*página serviços*/
+/*páginas termos e cookies*/
+.pag-termos,
+.pag-cookies {
+  margin: 20px;
+  padding: 20px;
+}
