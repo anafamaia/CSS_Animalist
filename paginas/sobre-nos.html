@@ -4,120 +4,152 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animalist | Sobre nós</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
-      <div class="logo">
-        <a href="../index.html">
-          <img
-            class="logotipo"
-            src="../imagens/ANIMALIST_logo.png"
-            alt="logo"
-          />
-        </a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="#">Sobre Nós</a></li>
-          <li><a href="servicos.html">Serviços</a></li>
-          <li><a href="contactos.html">Contactos</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand text-center" href="#">
+            <img
+              id="logo"
+              src="../imagens/ANIMALIST_logo.png"
+              alt="logo-animalist"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicos.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
-      <div class="principal-sobre-nos">
-        <div class="texto-sobre-nos">
-          <div class="problema">
-            <h2>O PROBLEMA</h2>
-            <h3>"O que é suposto dar ao meu cão?"</h3>
-            <p>Uma montanha-russa pela qual todos os donos passam...</p>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <h2 class="h2">Sobre Nós</h2>
             <p>
-              Também nós não sabíamos o que era o melhor para o nosso cão quanto
-              mais por onde começar a pesquisar. Todas as soluções ou eram
-              standard ou caras.
+              Na ANIMALIST, acreditamos que o bem-estar do teu melhor amigo de
+              quatro patas começa com uma alimentação saudável e de qualidade.
+              Por isso, dedicamo-nos a fornecer refeições naturais,
+              cuidadosamente preparadas com ingredientes frescos e selecionados
+              dos nossos produtores locais. Cada receita é desenvolvida à medida
+              das necessidades específicas do teu patudo, garantindo que ele
+              receba todos os nutrientes essenciais para uma vida longa e feliz.
             </p>
             <p>
-              Uma nutrição de qualidade é essencial mas por esta ou aquela razão
-              ficava comprometida. Foi aí que começamos a perguntar-nos: "por
-              que temos de comprometer o bem-estar dos nossos cães? Tem de haver
-              outra maneira..."
-            </p>
-          </div>
-          <div class="solucao">
-            <h2>A SOLUÇÃO</h2>
-            <h3>Nada ao acaso, tudo à medida</h3>
-            <p>
-              Havia outra maneira: criarmos nós aquilo que queríamos para os
-              nossos cães: uma rotina de nutrição acessível a todas as famílias,
-              verdadeiramente personalizada, não apenas para os saciar mas para
-              revitalizar, fortalecer e elevar a sua saúde e o bem-estar.
+              Para nós, os animais não são apenas companheiros, são parte da
+              família. Por isso, trabalhamos com a mesma dedicação e carinho que
+              tu tens pelo teu amigo. A nossa missão é simples: ajudar-te a
+              cuidar da saúde e felicidade do teu patudo através de uma
+              alimentação saborosa, nutritiva e 100% natural.
             </p>
             <p>
-              Desenvolvemos um mundo de nutrição, desde ração a suplementos,
-              entregue em tua casa, para que nunca mais tenhas de te preocupar
-              se estás a dar a coisa certa ao teu cão.
+              Confia na ANIMALIST para alimentar o teu patudo com o que ele
+              merece de melhor – porque eles são a nossa paixão.
             </p>
-          </div>
-          <div class="numeros-historias">
-            <h3>Números que contam milhares de histórias</h3>
-            <ul class="lista-numeros">
-              <li><span class="bold"> 80.000</span> cães</li>
-              <li><span class="bold">80.000</span> famílias</li>
-              <li><span class="bold">1.000.000</span> refeições doadas</li>
-            </ul>
-          </div>
-          <div class="cta">
-            <a class="botao-sobre-nos" href="contactos.html"
-              >Quero saber mais</a
+            <button
+              type="button"
+              class="botao-principal"
+              href="./paginas/contactos.html"
             >
+              Quero saber mais
+            </button>
           </div>
-        </div>
-        <div class="img-sobre-nos">
-          <img class="img-dog" src="../imagens/dog.jpg" alt="Cão" />
+          <div class="col-6">
+            <img
+              class="img-principal img-fluid"
+              src="../imagens/dog.jpg"
+              alt="Owner with Dog"
+            />
+          </div>
         </div>
       </div>
     </main>
     <footer>
-      <div class="conteudo-footer">
-        <div class="coluna-footer1">
-          <h3 class="footer-titulos">Sobre nós</h3>
-          <p>
-            A ANIMALIST é uma empresa focada no bem estar do teu melhor amigo de
-            4 patas. Fornecemos alimentação natural, feita com ingredientes de
-            qualidade dos nossos produtores locais. Uma alimentação feita à
-            medida para o teu patudo.
-          </p>
+      <div class="container">
+        <div class="row align-items-left">
+          <div class="col-4 coluna-footer">
+            <h3>Sobre nós</h3>
+            <p>
+              A ANIMALIST é uma empresa focada no bem estar do teu melhor amigo
+              de 4 patas. Fornecemos alimentação natural, feita com ingredientes
+              de qualidade dos nossos produtores locais. Uma alimentação feita à
+              medida para o teu patudo.
+            </p>
+          </div>
+          <div class="col-4 coluna-footer">
+            <h3 class="footer-titulos">Contacte-nos</h3>
+            <a href="mailto:info@animalist.pt" class="link-footer"
+              >info@animalist.com</a
+            ><br />
+            <a href="tel:222333444" class="link-footer">222 333 444</a>
+            <span>(chamada para rede fixa nacional)</span>
+          </div>
+          <div class="col-4 coluna-footer">
+            <h3>Informações</h3>
+            <ul class="list-footer">
+              <li>
+                <a
+                  href="https://www.livroreclamacoes.pt/Inicio/"
+                  target="_blank"
+                  class="link-footer"
+                  >Livro de Reclamações Online</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./paginas/termos.html"
+                  target="_blank"
+                  class="link-footer"
+                  >Termos e Condições</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./paginas/cookies.html"
+                  target="_blank"
+                  class="link-footer"
+                  >Política de Privacidade e Cookies</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="coluna-footer2">
-          <h3 class="footer-titulos">Contacte-nos</h3>
-          <a href="mailto:info@animalist.pt">info@animalist.com</a><br />
-          <a href="tel:222333444">222 333 444</a>
-          <span>(chamada para rede fixa nacional)</span>
-        </div>
-        <div class="coluna-footer3">
-          <h3 class="footer-titulos">Informações</h3>
-          <ul>
-            <li>
-              <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank"
-                >Livro de Reclamações Online</a
-              >
-            </li>
-            <li>
-              <a href="termos.html" target="_blank">Termos e Condições</a>
-            </li>
-            <li>
-              <a href="cookies.html" target="_blank"
-                >Política de Privacidade e Cookies</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="direitos">
-          <p class="direitos-texto">Website feito com ❤️ por Ana Filipa Maia</p>
-          <p class="direitos-texto">©2024. Todos os direitos reservados.</p>
-        </div>
+      </div>
+      <div class="col text-center direitos">
+        <p class="small">Website feito com ❤️ por Ana Filipa Maia</p>
+        <p class="small">©2024. Todos os direitos reservados.</p>
       </div>
     </footer>
   </body>
