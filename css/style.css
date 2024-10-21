@@ -72,6 +72,7 @@ footer {
   border: 1px solid #ffea2e;
   font-size: 16px;
   color: black;
+  text-decoration: none;
 }
 
 .botao-principal:hover {
@@ -87,6 +88,46 @@ footer {
   border-radius: 35px;
   display: block;
   margin: 0 auto;
+}
+
+/*página contactos*/
+.form-floating,
+.form-nome-email,
+.form-telefone-encomenda {
+  margin-top: 10px;
+}
+
+.form-check,
+.submit-btn {
+  margin-top: 20px;
+}
+
+.obrigatorio {
+  color: red;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 20px 30px;
+  background-color: #ffea2e;
+  border-radius: 35px;
+  border: 1px solid #ffea2e;
+  font-size: 14px;
+  color: black;
+}
+
+.submit-btn:hover {
+  background-color: #5370f6;
+  border: 1px solid #5370f6;
+  transition: all ease 150ms;
+  cursor: pointer;
+  color: white;
+}
+
+.redes-sociais {
+  width: 28px;
+  padding: 3px;
+  text-decoration: none;
 }
 
 /*páginas termos e cookies*/
